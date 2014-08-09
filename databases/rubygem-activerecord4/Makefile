@@ -5,13 +5,14 @@ PORTNAME=	activerecord
 PORTVERSION=	4.1.4
 CATEGORIES=	databases rubygems
 MASTER_SITES=	RG
+PKGNAMESUFFIX=	4
 
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Object-relational mapping layer for Rails MVC Framework
 
 LICENSE=	MIT
 
-RUN_DEPENDS=	rubygem-activemodel>=${PORTVERSION}:${PORTSDIR}/databases/rubygem-activemodel4 \
+RUN_DEPENDS=	rubygem-activemodel4>=${PORTVERSION}:${PORTSDIR}/databases/rubygem-activemodel4 \
 		rubygem-activesupport4>=${PORTVERSION}:${PORTSDIR}/devel/rubygem-activesupport4 \
 		rubygem-arel3>=3.0.3:${PORTSDIR}/databases/rubygem-arel3 \
 		rubygem-tzinfo>=0.3.29:${PORTSDIR}/devel/rubygem-tzinfo

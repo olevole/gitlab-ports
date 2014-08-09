@@ -5,19 +5,20 @@ PORTNAME=	rails
 PORTVERSION=	4.1.4
 CATEGORIES=	www rubygems
 MASTER_SITES=	RG
+PKGNAMESUFFIX=	4
 
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	MVC web application framework
 
 LICENSE=	MIT
 
-RUN_DEPENDS=	rubygem-actionmailer>=${PORTVERSION}:${PORTSDIR}/mail/rubygem-actionmailer4 \
-		rubygem-actionpack>=${PORTVERSION}:${PORTSDIR}/www/rubygem-actionpack4 \
-		rubygem-activerecord>=${PORTVERSION}:${PORTSDIR}/databases/rubygem-activerecord4 \
+RUN_DEPENDS=	rubygem-actionmailer4>=${PORTVERSION}:${PORTSDIR}/mail/rubygem-actionmailer4 \
+		rubygem-actionpack4>=${PORTVERSION}:${PORTSDIR}/www/rubygem-actionpack4 \
+		rubygem-activerecord4>=${PORTVERSION}:${PORTSDIR}/databases/rubygem-activerecord4 \
 		rubygem-activesupport4>=${PORTVERSION}:${PORTSDIR}/devel/rubygem-activesupport4 \
 		rubygem-bundler>=1.0:${PORTSDIR}/sysutils/rubygem-bundler \
 		rubygem-railties>=${PORTVERSION}:${PORTSDIR}/www/rubygem-railties4 \
-		rubygem-activeresource>=4.0.0:${PORTSDIR}/www/rubygem-activeresource4 \
+		rubygem-activeresource4>=4.0.0:${PORTSDIR}/www/rubygem-activeresource4 \
 		rubygem-builder32>=3.2.2:${PORTSDIR}/devel/rubygem-builder32 \
 		rubygem-coffee-rails>=4.0.1:${PORTSDIR}/devel/rubygem-coffee-rails4 \
 		rubygem-i18n>=0.6.1:${PORTSDIR}/devel/rubygem-i18n \

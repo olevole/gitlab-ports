@@ -11,7 +11,7 @@ COMMENT=	Rails internals bootup, plugins, generators, and rake tasks
 
 LICENSE=	MIT
 
-RUN_DEPENDS=	rubygem-actionpack>=${PORTVERSION}:${PORTSDIR}/www/rubygem-actionpack4 \
+RUN_DEPENDS=	rubygem-actionpack4>=${PORTVERSION}:${PORTSDIR}/www/rubygem-actionpack4 \
 		rubygem-activesupport4>=${PORTVERSION}:${PORTSDIR}/devel/rubygem-activesupport4 \
 		rubygem-thor>=0.19.0:${PORTSDIR}/devel/rubygem-thor \
 		rubygem-rack-ssl>=1.3.2:${PORTSDIR}/www/rubygem-rack-ssl

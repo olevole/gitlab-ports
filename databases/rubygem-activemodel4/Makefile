@@ -5,6 +5,7 @@ PORTNAME=	activemodel
 PORTVERSION=	4.1.4
 CATEGORIES=	databases rubygems
 MASTER_SITES=	RG
+PKGNAMESUFFIX=	4
 
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Toolkit for building modeling frameworks
