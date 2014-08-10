@@ -73,7 +73,7 @@ RUN_DEPENDS=	rubygem-rails4>0:${PORTSDIR}/www/rubygem-rails4 \
 		rubygem-jquery-turbolinks>0:${PORTSDIR}/www/rubygem-jquery-turbolinks \
 		rubygem-select2-rails>0:${PORTSDIR}/www/rubygem-select2-rails \
 		rubygem-jquery-atwho-rails>0:${PORTSDIR}/www/rubygem-jquery-atwho-rails \
-		rubygem-jquery-rails4>0:${PORTSDIR}/www/rubygem-jquery-rails4 \
+		rubygem-jquery-rails4>0:${PORTSDIR}/www/rubygem-jquery-rails-rails4 \
 		rubygem-jquery-ui-rails>0:${PORTSDIR}/www/rubygem-jquery-ui-rails \
 		rubygem-jquery-scrollto-rails>0:${PORTSDIR}/www/rubygem-jquery-scrollto-rails \
 		rubygem-raphael-rails>0:${PORTSDIR}/www/rubygem-raphael-rails \
