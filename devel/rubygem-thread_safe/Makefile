@@ -2,7 +2,7 @@
 # $FreeBSD: head/devel/rubygem-thread_safe/Makefile 338168 2013-12-30 20:55:18Z ohauer $
 
 PORTNAME=	thread_safe
-PORTVERSION=	0.3.1
+PORTVERSION=	0.3.4
 CATEGORIES=	devel rubygems
 MASTER_SITES=	RG
 
