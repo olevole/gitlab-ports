@@ -5,6 +5,7 @@ PORTNAME=	railties
 PORTVERSION=	4.1.4
 CATEGORIES=	www rubygems
 MASTER_SITES=	RG
+PKGNAMESUFFIX=	4
 
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Rails internals bootup, plugins, generators, and rake tasks
