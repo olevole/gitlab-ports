@@ -1,0 +1,19 @@
+# $FreeBSD: head/security/rubygem-omniauth/Makefile 362126 2014-07-17 08:57:51Z olgeni $
+
+PORTNAME=	omniauth
+PORTVERSION=	1.2.2
+CATEGORIES=	security rubygems
+MASTER_SITES=	RG
+
+MAINTAINER=	ruby@FreeBSD.org
+COMMENT=	Generalized Rack framework for multiple-provider authentication
+
+RUN_DEPENDS=	rubygem-rack>=0:${PORTSDIR}/www/rubygem-rack \
+		rubygem-hashie>=1.2:${PORTSDIR}/devel/rubygem-hashie
+
+USE_RUBY=	yes
+USE_RUBYGEMS=	yes
+RUBYGEM_AUTOPLIST=	yes
+
+
+.include <bsd.port.mk>
