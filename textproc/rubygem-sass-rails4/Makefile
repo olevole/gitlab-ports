@@ -12,7 +12,7 @@ COMMENT=	Sass adapter for the Rails asset pipeline
 
 LICENSE=	MIT
 
-RUN_DEPENDS=	rubygem-railties>=3.2.0:${PORTSDIR}/www/rubygem-railties4 \
+RUN_DEPENDS=	rubygem-railties4>=4.1.4:${PORTSDIR}/www/rubygem-railties4 \
 		rubygem-sass>=3.3.4:${PORTSDIR}/textproc/rubygem-sass \
 		rubygem-tilt>=2.0.1:${PORTSDIR}/devel/rubygem-tilt
 

@@ -17,7 +17,7 @@ RUN_DEPENDS=	rubygem-actionmailer4>=${PORTVERSION}:${PORTSDIR}/mail/rubygem-acti
 		rubygem-activerecord4>=${PORTVERSION}:${PORTSDIR}/databases/rubygem-activerecord4 \
 		rubygem-activesupport4>=${PORTVERSION}:${PORTSDIR}/devel/rubygem-activesupport4 \
 		rubygem-bundler>=1.0:${PORTSDIR}/sysutils/rubygem-bundler \
-		rubygem-railties>=${PORTVERSION}:${PORTSDIR}/www/rubygem-railties4 \
+		rubygem-railties4>=${PORTVERSION}:${PORTSDIR}/www/rubygem-railties4 \
 		rubygem-activeresource4>=4.0.0:${PORTSDIR}/www/rubygem-activeresource4 \
 		rubygem-builder32>=3.2.2:${PORTSDIR}/devel/rubygem-builder32 \
 		rubygem-coffee-rails>=4.0.1:${PORTSDIR}/devel/rubygem-coffee-rails4 \
@@ -27,7 +27,7 @@ RUN_DEPENDS=	rubygem-actionmailer4>=${PORTVERSION}:${PORTSDIR}/mail/rubygem-acti
 		rubygem-rack>=1.4.4:${PORTSDIR}/www/rubygem-rack \
 		rubygem-rack-test>=0.6.1:${PORTSDIR}/www/rubygem-rack-test \
 		rubygem-rake>=10.1.1:${PORTSDIR}/devel/rubygem-rake \
-		rubygem-sass-rails>=4.0.3:${PORTSDIR}/textproc/rubygem-sass-rails4 \
+		rubygem-sass-rails4>=4.0.3:${PORTSDIR}/textproc/rubygem-sass-rails4 \
 		rubygem-sqlite3>=1.3.9:${PORTSDIR}/databases/rubygem-sqlite3 \
 		rubygem-treetop>=1.4.15:${PORTSDIR}/devel/rubygem-treetop \
 		rubygem-turn>=0.8.3:${PORTSDIR}/devel/rubygem-turn \

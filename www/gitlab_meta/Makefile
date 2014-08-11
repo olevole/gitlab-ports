@@ -31,7 +31,7 @@ RUN_DEPENDS=	rubygem-rails4>0:${PORTSDIR}/www/rubygem-rails4 \
 		rubygem-stamp>0:${PORTSDIR}/textproc/rubygem-stamp \
 		rubygem-enumerize>0:${PORTSDIR}/devel/rubygem-enumerize \
 		rubygem-kaminari>0:${PORTSDIR}/www/rubygem-kaminari \
-		rubygem-haml-rails>0:${PORTSDIR}/www/rubygem-haml-rails \
+		rubygem-haml-rails4>0:${PORTSDIR}/www/rubygem-haml-rails4 \
 		rubygem-carrierwave>0:${PORTSDIR}/www/rubygem-carrierwave \
 		rubygem-dropzonejs-rails>0:${PORTSDIR}/www/rubygem-dropzonejs-rails \
 		rubygem-fog>0:${PORTSDIR}/devel/rubygem-fog \
@@ -44,7 +44,7 @@ RUN_DEPENDS=	rubygem-rails4>0:${PORTSDIR}/www/rubygem-rails4 \
 		rubygem-diffy3>0:${PORTSDIR}/textproc/rubygem-diffy3 \
 		rubygem-asciidoctor>0:${PORTSDIR}/textproc/rubygem-asciidoctor \
 		rubygem-state_machine>0:${PORTSDIR}/devel/rubygem-state_machine \
-		rubygem-acts-as-taggable-on>0:${PORTSDIR}/www/rubygem-acts-as-taggable-on \
+		rubygem-acts-as-taggable-on>=3.3.0:${PORTSDIR}/www/rubygem-acts-as-taggable-on3 \
 		rubygem-slim>0:${PORTSDIR}/devel/rubygem-slim \
 		rubygem-sinatra>0:${PORTSDIR}/www/rubygem-sinatra \
 		rubygem-sidekiq>0:${PORTSDIR}/devel/rubygem-sidekiq \
@@ -59,26 +59,26 @@ RUN_DEPENDS=	rubygem-rails4>0:${PORTSDIR}/www/rubygem-rails4 \
 		rubygem-gitlab-flowdock-git-hook>0:${PORTSDIR}/www/rubygem-gitlab-flowdock-git-hook \
 		rubygem-gemnasium-gitlab-service>0:${PORTSDIR}/devel/rubygem-gemnasium-gitlab-service \
 		rubygem-slack-notifier>0:${PORTSDIR}/devel/rubygem-slack-notifier \
-		rubygem-d3_rails>0:${PORTSDIR}/www/rubygem-d3_rails \
+		rubygem-d3_rails4>0:${PORTSDIR}/www/rubygem-d3_rails4 \
 		rubygem-underscore-rails>0:${PORTSDIR}/www/rubygem-underscore-rails \
 		rubygem-sanitize>0:${PORTSDIR}/textproc/rubygem-sanitize \
 		rubygem-rack-attack>0:${PORTSDIR}/www/rubygem-rack-attack \
 		rubygem-ace-rails-ap>0:${PORTSDIR}/www/rubygem-ace-rails-ap \
 		rubygem-semantic-ui-sass>0:${PORTSDIR}/www/rubygem-semantic-ui-sass \
-		rubygem-sass-rails4>4.0.3:${PORTSDIR}/textproc/rubygem-sass-rails4 \
-		rubygem-coffee-rails4>4.0.1:${PORTSDIR}/devel/rubygem-coffee-rails4 \
+		rubygem-sass-rails4>=4.0.3:${PORTSDIR}/textproc/rubygem-sass-rails4 \
+		rubygem-coffee-rails4>=4.0.1:${PORTSDIR}/devel/rubygem-coffee-rails4 \
 		rubygem-uglifier>0:${PORTSDIR}/www/rubygem-uglifier \
 		rubygem-therubyracer>0:${PORTSDIR}/devel/rubygem-therubyracer \
-		rubygem-turbolinks>0:${PORTSDIR}/www/rubygem-turbolinks \
-		rubygem-jquery-turbolinks>0:${PORTSDIR}/www/rubygem-jquery-turbolinks \
+		rubygem-turbolinks4>0:${PORTSDIR}/www/rubygem-turbolinks4 \
+		rubygem-jquery-turbolinks4>0:${PORTSDIR}/www/rubygem-jquery-turbolinks4 \
 		rubygem-select2-rails>0:${PORTSDIR}/www/rubygem-select2-rails \
-		rubygem-jquery-atwho-rails>0:${PORTSDIR}/www/rubygem-jquery-atwho-rails \
-		rubygem-jquery-rails4>0:${PORTSDIR}/www/rubygem-jquery-rails-rails4 \
-		rubygem-jquery-ui-rails>0:${PORTSDIR}/www/rubygem-jquery-ui-rails \
+		rubygem-jquery-atwho-rails4>0:${PORTSDIR}/www/rubygem-jquery-atwho-rails4 \
+		rubygem-jquery-rails-rails4>0:${PORTSDIR}/www/rubygem-jquery-rails-rails4 \
+		rubygem-jquery-ui-rails4>0:${PORTSDIR}/www/rubygem-jquery-ui-rails4 \
 		rubygem-jquery-scrollto-rails>0:${PORTSDIR}/www/rubygem-jquery-scrollto-rails \
 		rubygem-raphael-rails>0:${PORTSDIR}/www/rubygem-raphael-rails \
 		rubygem-bootstrap-sass>0:${PORTSDIR}/www/rubygem-bootstrap-sass \
-		rubygem-font-awesome-rails>0:${PORTSDIR}/devel/rubygem-font-awesome-rails \
+		rubygem-font-awesome-rails4>0:${PORTSDIR}/devel/rubygem-font-awesome-rails4 \
 		rubygem-gitlab_emoji>0:${PORTSDIR}/graphics/rubygem-gitlab_emoji \
 		rubygem-gon>0:${PORTSDIR}/www/rubygem-gon \
 		rubygem-nprogress_rails>0:${PORTSDIR}/devel/rubygem-nprogress_rails \

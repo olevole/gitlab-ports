@@ -11,7 +11,7 @@ COMMENT=	GitLab wrapper around git objects
 LICENSE=	MIT
 
 RUN_DEPENDS=	rubygem-activesupport4>=4.1.4:${PORTSDIR}/devel/rubygem-activesupport4 \
-		rubygem-github-linguist>=2.3.4:${PORTSDIR}/textproc/rubygem-github-linguist \
+		rubygem-gitlab-linguist>=2.3.4:${PORTSDIR}/textproc/rubygem-gitlab-linguist \
 		rubygem-gitlab-grit>=2.6.0:${PORTSDIR}/textproc/rubygem-gitlab-grit
 
 USE_RUBY=	yes

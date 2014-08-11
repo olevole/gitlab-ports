@@ -13,8 +13,11 @@ LICENSE=	MIT
 
 RUN_DEPENDS=	rubygem-rake-compiler>0.9.0:${PORTSDIR}/devel/rubygem-rake-compiler \
 		rubygem-pry>0:${PORTSDIR}/devel/rubygem-pry \
-		rubygem-minitest>3.0.0:${PORTSDIR}/devel/rubygem-minitest
+		rubygem-minitest>3.0.0:${PORTSDIR}/devel/rubygem-minitest \
+		rubygem-pkg-config>0:${PORTSDIR}/devel/rubygem-pkg-config \
+		cmake:${PORTSDIR}/devel/cmake
 
+USES=		pkgconfig
 USE_RUBY=	yes
 USE_RAKE=	yes
 USE_RUBYGEMS=	yes

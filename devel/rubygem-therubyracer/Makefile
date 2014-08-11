@@ -9,6 +9,8 @@ MASTER_SITES=	RG
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Call and manipulate Ruby code and objects from JavaScript and vice versa
 
+BUILD_DEPENDS=	rubygem-libv8>3.16.14.3:${PORTSDIR}/devel/rubygem-libv8
+
 LICENSE=	MIT
 
 USE_RUBY=	yes
