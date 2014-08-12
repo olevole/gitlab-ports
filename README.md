@@ -3,77 +3,79 @@ gitlab-ports
 
 This repository contains GitLab. It requires the following ports to run:
 
-www/rubygem-rails
-www/rubygem-rails_autolink
-devel/rubygem-default_value_for
-databases/rubygem-mysql2
-databases/rubygem-pg
-devel/rubygem-devise
-devel/rubygem-devise-async
-security/rubygem-omniauth
-net/rubygem-omniauth-google-oauth2
-net/rubygem-omniauth-twitter
-net/rubygem-omniauth-github
-devel/rubygem-gitlab_git
-www/rubygem-gitlab-grack
-net/rubygem-gitlab_omniauth-ldap
-www/rubygem-gollum-lib
-textproc/rubygem-gitlab-linguist
-devel/rubygem-grape
-devel/rubygem-grape-entity
-www/rubygem-rack-cors
-textproc/rubygem-stamp
-devel/rubygem-enumerize
-www/rubygem-kaminari
-www/rubygem-haml-rails
-www/rubygem-carrierwave
-www/rubygem-dropzonejs-rails
-devel/rubygem-fog
-textproc/rubygem-unf
-security/rubygem-six
-databases/rubygem-seed-fu
-textproc/rubygem-redcarpet
-textproc/rubygem-github-markup
-textproc/rubygem-org-ruby
-textproc/rubygem-diffy3
-textproc/rubygem-asciidoctor
-devel/rubygem-state_machine
-www/rubygem-acts-as-taggable-on
-devel/rubygem-slim
-www/rubygem-sinatra
-devel/rubygem-sidekiq
-www/rubygem-httparty
-textproc/rubygem-colored
-devel/rubygem-settingslogic
-devel/rubygem-foreman
-textproc/rubygem-version_sorter
-www/rubygem-redis-rails
-net-im/rubygem-tinder
-net-im/rubygem-hipchat
-www/rubygem-gitlab-flowdock-git-hook
-devel/rubygem-gemnasium-gitlab-service
-devel/rubygem-slack-notifier
-www/rubygem-d3_rails
-www/rubygem-underscore-rails
-textproc/rubygem-sanitize
-www/rubygem-rack-attack
-www/rubygem-ace-rails-ap
-www/rubygem-semantic-ui-sass
-textproc/rubygem-sass-rails
-devel/rubygem-coffee-rails
-www/rubygem-uglifier
-devel/rubygem-therubyracer
-www/rubygem-turbolinks
-www/rubygem-jquery-turbolinks
-www/rubygem-select2-rails
-www/rubygem-jquery-atwho-rails
-www/rubygem-jquery-rails
-www/rubygem-jquery-ui-rails
-www/rubygem-jquery-scrollto-rails
-www/rubygem-raphael-rails
-www/rubygem-bootstrap-sass
-devel/rubygem-font-awesome-rails
-graphics/rubygem-gitlab_emoji
-www/rubygem-gon
-devel/rubygem-nprogress_rails
-devel/rubygem-request_store
+```
+    www/rubygem-rails
+    www/rubygem-rails_autolink
+    devel/rubygem-default_value_for
+    databases/rubygem-mysql2
+    databases/rubygem-pg
+    devel/rubygem-devise
+    devel/rubygem-devise-async
+    security/rubygem-omniauth
+    net/rubygem-omniauth-google-oauth2
+    net/rubygem-omniauth-twitter
+    net/rubygem-omniauth-github
+    devel/rubygem-gitlab_git
+    www/rubygem-gitlab-grack
+    net/rubygem-gitlab_omniauth-ldap
+    www/rubygem-gollum-lib
+    textproc/rubygem-gitlab-linguist
+    devel/rubygem-grape
+    devel/rubygem-grape-entity
+    www/rubygem-rack-cors
+    textproc/rubygem-stamp
+    devel/rubygem-enumerize
+    www/rubygem-kaminari
+    www/rubygem-haml-rails
+    www/rubygem-carrierwave
+    www/rubygem-dropzonejs-rails
+    devel/rubygem-fog
+    textproc/rubygem-unf
+    security/rubygem-six
+    databases/rubygem-seed-fu
+    textproc/rubygem-redcarpet
+    textproc/rubygem-github-markup
+    textproc/rubygem-org-ruby
+    textproc/rubygem-diffy3
+    textproc/rubygem-asciidoctor
+    devel/rubygem-state_machine
+    www/rubygem-acts-as-taggable-on
+    devel/rubygem-slim
+    www/rubygem-sinatra
+    devel/rubygem-sidekiq
+    www/rubygem-httparty
+    textproc/rubygem-colored
+    devel/rubygem-settingslogic
+    devel/rubygem-foreman
+    textproc/rubygem-version_sorter
+    www/rubygem-redis-rails
+    net-im/rubygem-tinder
+    net-im/rubygem-hipchat
+    www/rubygem-gitlab-flowdock-git-hook
+    devel/rubygem-gemnasium-gitlab-service
+    devel/rubygem-slack-notifier
+    www/rubygem-d3_rails
+    www/rubygem-underscore-rails
+    textproc/rubygem-sanitize
+    www/rubygem-rack-attack
+    www/rubygem-ace-rails-ap
+    www/rubygem-semantic-ui-sass
+    textproc/rubygem-sass-rails
+    devel/rubygem-coffee-rails
+    www/rubygem-uglifier
+    devel/rubygem-therubyracer
+    www/rubygem-turbolinks
+    www/rubygem-jquery-turbolinks
+    www/rubygem-select2-rails
+    www/rubygem-jquery-atwho-rails
+    www/rubygem-jquery-rails
+    www/rubygem-jquery-ui-rails
+    www/rubygem-jquery-scrollto-rails
+    www/rubygem-raphael-rails
+    www/rubygem-bootstrap-sass
+    devel/rubygem-font-awesome-rails
+    graphics/rubygem-gitlab_emoji
+    www/rubygem-gon
+    devel/rubygem-nprogress_rails
+    devel/rubygem-request_store
+```
