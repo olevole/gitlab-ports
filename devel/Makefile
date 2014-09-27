@@ -1,4 +1,4 @@
-# $FreeBSD: head/devel/Makefile 368414 2014-09-17 19:54:38Z swills $
+# $FreeBSD: head/devel/Makefile 369356 2014-09-27 04:12:07Z swills $
 #
 
     COMMENT = Development utilities
@@ -969,6 +969,7 @@
     SUBDIR += libcidr
     SUBDIR += libcii
     SUBDIR += libclaw
+    SUBDIR += libclc
     SUBDIR += libcli
     SUBDIR += libconfig
     SUBDIR += libconfuse
@@ -1025,7 +1026,6 @@
     SUBDIR += libgee06
     SUBDIR += libgetline
     SUBDIR += libghthash
-    SUBDIR += libgii
     SUBDIR += libgit2
     SUBDIR += libglade2
     SUBDIR += libglade2-reference
@@ -1181,6 +1181,15 @@
     SUBDIR += libzrtpcpp
     SUBDIR += libzvbi
     SUBDIR += lightning
+    SUBDIR += linux-c6-ncurses-base
+    SUBDIR += linux-c6-devtools
+    SUBDIR += linux-c6-dbus-glib
+    SUBDIR += linux-c6-qt47
+    SUBDIR += linux-c6-dbus-libs
+    SUBDIR += linux-c6-libglade2
+    SUBDIR += linux-c6-libpciaccess
+    SUBDIR += linux-c6-sdl12
+    SUBDIR += linux-c6-nspr
     SUBDIR += linux-f10-allegro
     SUBDIR += linux-f10-dbus-glib
     SUBDIR += linux-f10-dbus-libs
@@ -3788,6 +3797,7 @@
     SUBDIR += py-ode
     SUBDIR += py-odfpy
     SUBDIR += py-olefileio_pl
+    SUBDIR += py-oletools
     SUBDIR += py-omnijson
     SUBDIR += py-omniorb
     SUBDIR += py-optik
@@ -4164,7 +4174,6 @@
     SUBDIR += remake
     SUBDIR += replay
     SUBDIR += rhtvision
-    SUBDIR += ri-emacs
     SUBDIR += rlog
     SUBDIR += rlwrap
     SUBDIR += roboctl
@@ -4185,7 +4194,6 @@
     SUBDIR += ruby-date2
     SUBDIR += ruby-dialogs
     SUBDIR += ruby-event-loop
-    SUBDIR += ruby-fastri
     SUBDIR += ruby-flexmock
     SUBDIR += ruby-gems
     SUBDIR += ruby-intl
@@ -4193,8 +4201,6 @@
     SUBDIR += ruby-krossruby
     SUBDIR += ruby-langscan
     SUBDIR += ruby-locale
-    SUBDIR += ruby-locale2
-    SUBDIR += ruby-multi
     SUBDIR += ruby-ncurses
     SUBDIR += ruby-property
     SUBDIR += ruby-qtruby
@@ -4204,7 +4210,6 @@
     SUBDIR += ruby-rreadline
     SUBDIR += ruby-sdl
     SUBDIR += ruby-setup.rb
-    SUBDIR += ruby-statgrab
     SUBDIR += ruby-subversion
     SUBDIR += ruby-tzfile
     SUBDIR += ruby-wirble
@@ -4222,6 +4227,7 @@
     SUBDIR += rubygem-app_config
     SUBDIR += rubygem-arrayfields
     SUBDIR += rubygem-ascii85
+    SUBDIR += rubygem-aspectr
     SUBDIR += rubygem-atomic
     SUBDIR += rubygem-atoulme-antwrap
     SUBDIR += rubygem-attic
@@ -4293,7 +4299,6 @@
     SUBDIR += rubygem-docile
     SUBDIR += rubygem-dotenv-deployment
     SUBDIR += rubygem-drydock
-    SUBDIR += rubygem-echoe
     SUBDIR += rubygem-edavis10-object_daddy
     SUBDIR += rubygem-elif
     SUBDIR += rubygem-enumerize
@@ -4329,7 +4334,7 @@
     SUBDIR += rubygem-gemnasium-gitlab-service
     SUBDIR += rubygem-gems
     SUBDIR += rubygem-generator_spec
-    SUBDIR += rubygem-generator_spec4
+    SUBDIR += rubygem-generator_spec-rails4
     SUBDIR += rubygem-georuby
     SUBDIR += rubygem-getopt
     SUBDIR += rubygem-gettext
@@ -4379,7 +4384,6 @@
     SUBDIR += rubygem-launchy
     SUBDIR += rubygem-launchy22
     SUBDIR += rubygem-librarian
-    SUBDIR += rubygem-libv8
     SUBDIR += rubygem-libyajl2
     SUBDIR += rubygem-listen
     SUBDIR += rubygem-little_plugger
@@ -4482,7 +4486,6 @@
     SUBDIR += rubygem-ruby-sdl-ffi
     SUBDIR += rubygem-ruby2ruby
     SUBDIR += rubygem-ruby_parser
-    SUBDIR += rubygem-rubyforge
     SUBDIR += rubygem-rubygame
     SUBDIR += rubygem-rubygems-tasks
     SUBDIR += rubygem-rubyinlineaccel
@@ -4522,7 +4525,6 @@
     SUBDIR += rubygem-stream
     SUBDIR += rubygem-streetaddress
     SUBDIR += rubygem-stringex
-    SUBDIR += rubygem-stringex2
     SUBDIR += rubygem-structured_warnings
     SUBDIR += rubygem-subexec
     SUBDIR += rubygem-sugar-high
@@ -4536,7 +4538,6 @@
     SUBDIR += rubygem-term-ansicolor
     SUBDIR += rubygem-test
     SUBDIR += rubygem-test-unit
-    SUBDIR += rubygem-therubyracer
     SUBDIR += rubygem-thor
     SUBDIR += rubygem-thread_safe
     SUBDIR += rubygem-thread_safe1
