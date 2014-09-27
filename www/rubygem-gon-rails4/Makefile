@@ -12,7 +12,7 @@ COMMENT=	Framework to pass data to JS easily
 LICENSE=	MIT
 
 RUN_DEPENDS=	rubygem-actionpack4>=4.1.6:${PORTSDIR}/www/rubygem-actionpack4 \
-                rubygem-json>=0:${PORTSDIR}/devel/rubygem-json \
+		rubygem-json>=0:${PORTSDIR}/devel/rubygem-json \
 		rubygem-multi_json>=0:${PORTSDIR}/devel/rubygem-multi_json \
 		rubygem-request_store>=1.0.5:${PORTSDIR}/devel/rubygem-request_store
 

@@ -9,6 +9,8 @@ PKGNAMESUFFIX=	3
 MAINTAINER=	kuriyama@FreeBSD.org
 COMMENT=	Tag a single model on several contexts
 
+LICENSE=	MIT
+
 RUN_DEPENDS=	rubygem-rails4>=4.1.6:${PORTSDIR}/www/rubygem-rails4
 
 USE_RUBY=	YES

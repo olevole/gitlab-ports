@@ -68,7 +68,6 @@ RUN_DEPENDS=	rubygem-rails4>0:${PORTSDIR}/www/rubygem-rails4 \
 		rubygem-sass-rails4>=4.0.3:${PORTSDIR}/textproc/rubygem-sass-rails4 \
 		rubygem-coffee-rails4>=4.0.1:${PORTSDIR}/devel/rubygem-coffee-rails4 \
 		rubygem-uglifier>0:${PORTSDIR}/www/rubygem-uglifier \
-		rubygem-therubyracer>0:${PORTSDIR}/devel/rubygem-therubyracer \
 		rubygem-turbolinks>0:${PORTSDIR}/www/rubygem-turbolinks \
 		rubygem-jquery-turbolinks>0:${PORTSDIR}/www/rubygem-jquery-turbolinks \
 		rubygem-select2-rails>0:${PORTSDIR}/www/rubygem-select2-rails \

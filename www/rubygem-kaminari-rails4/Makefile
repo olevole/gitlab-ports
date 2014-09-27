@@ -10,6 +10,8 @@ PKGNAMESUFFIX=	-rails4
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Sophisticated paginator for Rails 3
 
+LICENSE=	MIT
+
 RUN_DEPENDS=	rubygem-activesupport4>=4.0.0:${PORTSDIR}/devel/rubygem-activesupport4 \
 		rubygem-actionpack>=4.0.0:${PORTSDIR}/www/rubygem-actionpack4
 

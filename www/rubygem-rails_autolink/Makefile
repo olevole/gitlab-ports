@@ -7,7 +7,7 @@ CATEGORIES=	www rubygems
 MASTER_SITES=	RG
 
 MAINTAINER=	ruby@FreeBSD.org
-COMMENT=	Extraction of the `auto_link` method from rails, removed in 3.1
+COMMENT=	Extraction of the auto_link method from rails, removed in 3.1
 
 LICENSE=	MIT
 

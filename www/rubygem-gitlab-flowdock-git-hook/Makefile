@@ -7,8 +7,7 @@ CATEGORIES=	www rubygems
 MASTER_SITES=	RG
 
 MAINTAINER=	ruby@FreeBSD.org
-COMMENT=	Git Post-Receive hook for Flowdock. Gem requirements patched for use with Gitlab.
-
+COMMENT=	GitLab's patched Git Post-Receive hook for Flowdock
 
 LICENSE=	MIT
 

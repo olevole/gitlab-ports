@@ -1,7 +1,7 @@
 # $FreeBSD: head/devel/rubygem-font-awesome-rails/Makefile 332036 2013-10-30 02:32:53Z swills $
 
 PORTNAME=	font-awesome-rails
-PORTVERSION=	4.1.0.0
+PORTVERSION=	4.2.0.0
 CATEGORIES=	devel rubygems
 MASTER_SITES=	RG
 PKGNAMESUFFIX=	4
@@ -9,11 +9,12 @@ PKGNAMESUFFIX=	4
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Provides the Font-Awesome web fonts and stylesheets as a Rails engine
 
-RUN_DEPENDS=	rubygem-railties4>=4.1.4:${PORTSDIR}/www/rubygem-railties4
+LICENSE=	MIT
+
+RUN_DEPENDS=	rubygem-railties4>=4.1.6:${PORTSDIR}/www/rubygem-railties4
 
 USE_RUBY=	yes
 USE_RUBYGEMS=	yes
 RUBYGEM_AUTOPLIST=	yes
-
 
 .include <bsd.port.mk>

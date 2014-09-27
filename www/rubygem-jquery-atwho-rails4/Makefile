@@ -7,7 +7,9 @@ MASTER_SITES=	RG
 PKGNAMESUFFIX=	4
 
 MAINTAINER=	ruby@FreeBSD.org
-COMMENT=	jQuery plugin that implement Github-like mentions
+COMMENT=	jQuery plugin that implements Github-like mentions
+
+LICENSE=	MIT
 
 RUN_DEPENDS=	rubygem-generator_spec-rails4>=0:${PORTSDIR}/devel/rubygem-generator_spec-rails4 \
 		rubygem-rspec>=0:${PORTSDIR}/devel/rubygem-rspec
@@ -15,6 +17,5 @@ RUN_DEPENDS=	rubygem-generator_spec-rails4>=0:${PORTSDIR}/devel/rubygem-generato
 USE_RUBY=	yes
 USE_RUBYGEMS=	yes
 RUBYGEM_AUTOPLIST=	yes
-
 
 .include <bsd.port.mk>
