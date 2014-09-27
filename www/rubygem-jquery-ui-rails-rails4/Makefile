@@ -4,7 +4,7 @@ PORTNAME=	jquery-ui-rails
 PORTVERSION=	5.0.0
 CATEGORIES=	www rubygems
 MASTER_SITES=	RG
-PKGNAMESUFFIX=	4
+PKGNAMESUFFIX=	-rails4
 
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	jQuery UI's JavaScript, CSS, and image files packaged for Rails
