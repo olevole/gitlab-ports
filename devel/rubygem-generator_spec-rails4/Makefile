@@ -4,6 +4,7 @@ PORTNAME=	generator_spec
 PORTVERSION=	0.9.2
 CATEGORIES=	devel rubygems
 MASTER_SITES=	RG
+PKGNAMESUFFIX=	-rails4
 
 MAINTAINER=	ruby@FreeBSD.org
 COMMENT=	Test Rails generators with RSpec
